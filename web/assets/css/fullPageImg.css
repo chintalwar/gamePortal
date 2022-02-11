@@ -1,0 +1,61 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    }
+
+    .bg {
+    /* The image used */
+    background-image: url("http://localhost/web/assets/images/1.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .user-info{
+        margin: 40px;
+        background-color:none;
+        opacity: 0.6;
+        width: 50%;
+        margin-left: 25%;
+        position: absolute;
+    }
+    h1{
+        font-size: 36px;
+        text-align: center;
+        color: #f8b704;
+        margin-bottom: 32px;
+       
+    }
+    .box{ 
+        width: 80%;
+        padding: 5px;
+        border: 2px solid  #f8b704;
+        border-radius: 6px;
+        margin: 0%;
+        margin-left: 10%;
+        margin-bottom: 32px;
+       
+    }
+    .setting{
+        font-size: 1em;
+        padding: 11px;
+        color: white;
+        border: 2px solid#f8b704;
+        border-radius: 20px/50px;
+        text-decoration: none;
+        cursor: pointer;
+        transition: all 0.3s ease-out;
+        margin: 2%;
+        top: 53%;
+        left: 28%;
+        position: absolute;
+        background:none;
+}
+.setting:hover {
+    background:#f8b704;
+  }
+    

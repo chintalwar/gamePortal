@@ -1,0 +1,192 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    }
+    *{
+      box-sizing: border-box;
+    }
+
+    .bg {
+    /* The image used */
+    background-image: url("http://localhost/web/assets/images/1.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+  .button {
+    font-size: 1em;
+    padding: 11px;
+    color: white;
+    border: 2px solid#f8b704;
+    border-radius: 20px/50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    margin: 2%;
+    top: 20%;
+    left: 16%;
+    position: absolute;
+  }
+  .button:hover {
+    background:#f8b704;
+  }
+  .button1::after {
+    background:#f8b704;
+  }
+  
+  .button1 {
+    font-size: 1em;
+    padding: 8px;
+    color: white;
+    border: white;
+    border-radius: 20px/50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 40%;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+    color: rgb(238, 165, 6);
+    font-family: Tahoma, Arial, sans-serif;
+  }
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  .popup .close:hover {
+    color: #f8b704;
+  }
+  .popup .content {
+    max-height: 40%;
+    overflow: auto;
+  }
+  .form-group{
+    text-align: left;
+    margin-bottom: 20px;
+    position: relative;
+}
+.form-control{
+    font-size: 17px;
+    height: 27px;
+    width: 93%;
+    padding: 2px 0px 3px 10px;
+    margin: 0 auto;
+    border: 2px solid #eee;
+    border-radius: 5px;
+    box-shadow: none;
+    outline: none;
+}
+
+
+.file{
+    font-size: 17px;
+    height: 36px;
+    width: 83%;
+    padding: 2px 0px 3px 10px;
+    margin: 0 auto;
+    border: 2px solid #eee;
+    border-radius: 5px;
+    box-shadow: none;
+    outline: none;
+}
+
+  /* #upload-name{
+    font-size: 17px;
+    height: 27px;
+    width: 79%;
+    padding: 2px 0px 3px 10px;
+    margin: 0 auto;
+    border: 2px solid #eee;
+    border-radius: 5px;
+    box-shadow: none;
+    outline: none;
+  } */
+  
+  .upload-button{
+    border-radius: 5%;
+    height: 100%;
+    padding: 9px 21px;
+    border: #333;
+    background: #f8b704;
+    color: white;
+    cursor: pointer;
+  }
+  #upload-name:focus, #upload-button:focus{
+    outline:none;
+  }
+  .table{
+	width: 100%;
+	border-collapse: collapse;
+  color: white;
+}
+
+.table td,.table th{
+  padding:12px 15px;
+  text-align: center;
+  font-size:16px;
+}
+
+.table th{
+	background-color: #f8b704;
+	color:#ffffff;
+}
+
+.table tbody tr:nth-child(even){
+	background-color: #f8b704;
+}
+
+.frogSetting{
+  height: 34px;
+}
+.btnFrog{
+  margin-left: 4%;
+}
+
+@media screen and (max-width: 700px){
+    .box{
+      width: 70%;
+    }
+    .popup{
+      width: 70%;
+    }
+  }
+
